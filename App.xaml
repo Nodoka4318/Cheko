@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:mp4Utl" 
              xmlns:DynamicAero2="clr-namespace:DynamicAero2;assembly=DynamicAero2"
-             StartupUri="UI\PreviewWindow.xaml">
+             StartupUri="UI\再生ウィンドウ.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
