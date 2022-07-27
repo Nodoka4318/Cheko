@@ -72,8 +72,6 @@
                 <Separator/>
                 <MenuItem Header="最近使ったファイル"/>
                 <Separator/>
-                <MenuItem Header="環境設定" Click="MenuItem_Click_Settings"/>
-                <Separator/>
                 <MenuItem Header="ソフトウェアの終了" Click="MenuItem_Click_Exit" />
             </MenuItem>
 

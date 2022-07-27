@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using mp4Utl.UI.ItemProperty;
-using FFmpeg.AutoGen
 
 namespace mp4Utl.NewFolder
 
@@ -42,12 +41,6 @@ namespace mp4Utl.NewFolder
         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.com/Kurumi4019/mp4Utl");
         startInfo.UseShellExecute = true;
         System.Diagnostics.Process.Start(startInfo);
-    }
-
-    private void MenuItem_Click_Settings(object sender, RoutedEventArgs e) //｢ファイル｣→｢環境設定｣をクリックしたときの動作
-    {
-        var win = new Settings();
-        win.Show();
     }
 
     private void MenuItem_Click_ItemProperty(object sender, RoutedEventArgs e) //｢表示｣→｢アイテムプロパティの表示｣をクリックしたときの動作
