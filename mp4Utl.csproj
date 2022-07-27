@@ -26,6 +26,8 @@
     <PackageReference Include="CppSharp" Version="1.0.1" />
     <PackageReference Include="DynamicAero2" Version="1.2.1" />
     <PackageReference Include="FFmpeg.AutoGen" Version="5.0.0" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="OpenCvSharp4" Version="4.6.0.20220608" />
   </ItemGroup>
 
   <ItemGroup>
